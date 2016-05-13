@@ -1,0 +1,95 @@
+
+.buton1{
+    position: relative;
+    float: left;
+    border: 1px orange solid;
+    padding: 5px 15px;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+.buton2{
+    position: relative;
+    float: left;
+    border: 1px orange solid;
+    padding: 5px 15px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+#bookingsystem {
+    border: 1px orange solid;
+    position: absolute;
+    width: 400px;
+}
+
+.celformat {
+    width: 290px;
+    margin-top: 10px;
+    border: 1px orange solid;
+    border-radius: 6px;
+    height: 22px;
+}
+.clear{
+   clear: both;
+}
+#show-error{
+  color:red;
+  font-weight: bold;
+  font-size: 30px;
+  }
+.name{   border: orange 1px solid;
+         color:black;
+        font-size: 12px;
+            margin-left: 4px;
+}
+.start{
+  border: orange 1px solid;
+          color:black;
+         font-size: 12px;
+}
+.stop{
+  border: orange 1px solid;
+          color:black;
+         font-size: 12px;
+}
+.car{
+  border: orange 1px solid;
+          color:black;
+         font-size: 12px;
+}
+.date{
+  border: orange 1px solid;
+          color:black;
+         font-size: 12px;
+}
+.price{
+  border: orange 1px solid;
+          color:black;
+         font-size: 12px;
+}
+.floter{position: relative;
+    float: left;
+    width: 16%;}
+    .buton1:hover , .buton2:hover{
+      cursor: pointer;
+      background-color: gray;
+    }
+    .controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+#autocomplete{
+  background-color: #fff;
+     font-family: Roboto;
+     font-size: 15px;
+     font-weight: 300;
+     margin-left: 12px;
+     padding: 0 11px 0 13px;
+     text-overflow: ellipsis;
+     width: 300px;
+}
